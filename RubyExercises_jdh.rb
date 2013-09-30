@@ -44,4 +44,38 @@ array = [1, 2, 3, 4, 5, 6, 6, 6, 7, 8, 9, 10]
 # Also, Hashes use Key: Value pairs
 
 #8
+# hash_18 = {:a => '1', :b => '2', :c => '3'}
+ hash_19 = {a: '1', b: '2', c: '3', d: '99'}
+# puts hash_18
+# puts hash_19
+
+#9
+# puts hash_19[:b]
+
+#10
+# hash_19[:e] = '5'
+
+#13
+# hash_19.delete_if {|key,value| value < '3.5'}
+
+#14
+hash1 = {x: 'cat', y: 'dog', z: 'monkey'}
+hash2 = {a: 'red', b: 'blue', c: 'Uncle Bagsy'}
+array1 = ["rose" , "jasmine", "coriander" , "orange"]
+array2 = ['Dallas', 'Austin', 'Lubbock', 'Amarillo']
+array_of_hashes = []
+hash_of_arrays = []
+array_of_hashes.push(hash1, hash2)
+hash_of_arrays = [m: array1, n: array2]
+puts array_of_hashes
+puts hash_of_arrays
+
+#15
+# I like http://www.ruby-doc.org/core-1.9.3/Hash.html 
+# because it's the one the instructor uses as an example
+# and until I know better, it's a darn good point of reference
+# ... if you'll pardon the pun
+
+
+
 
