@@ -40,8 +40,7 @@ array = [1, 2, 3, 4, 5, 6, 6, 6, 7, 8, 9, 10]
 # array.each{|a| puts a}
 
 #7
-# An Array contains all the same types of elements and a hash can containa variety. 
-# Also, Hashes use Key: Value pairs
+# Hashes use Key: Value pairs
 
 #8
 # hash_18 = {:a => '1', :b => '2', :c => '3'}
