@@ -15,6 +15,7 @@
 # 15. Look at several Rails/Ruby online API sources and say which one your like best and why.
 ##
 
+
 #1
 array = [1, 2, 3, 4, 5, 6, 6, 6, 7, 8, 9, 10]
 # array.each{|a| puts a}
@@ -56,6 +57,7 @@ array = [1, 2, 3, 4, 5, 6, 6, 6, 7, 8, 9, 10]
 
 #13
 # hash_19.delete_if {|key,value| value < '3.5'}
+
 
 #14
 hash1 = {x: 'cat', y: 'dog', z: 'monkey'}
