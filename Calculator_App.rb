@@ -20,7 +20,7 @@ elsif (choice == '4')
   result = num1.to_f + num2.to_f
   puts "#{num1} / #{num2} = #{result}"
 else
-  puts "That's not a valid choice, and I refuse to fail gracefully. Start over."
+  puts "That's not a valid choice and I refuse to fail gracefully. Start over."
 end
 
 
